@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*Header*/
 /**
-  * main - does my stuff
-  * Description: Does my stuff explained.
-*/
+  * main: - short description
+ 
+  * Description: outputs positive, negeative or zero for n
+  (*)?*/
 int main(void)
 {
 	int n;
