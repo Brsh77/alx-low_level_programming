@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 
-/*n will store a diff value every time */
-int main(void)
+/* n will store a diff value every time */
+int main(void) //outputs positive or negative or zero
 {
 	int n;
 
