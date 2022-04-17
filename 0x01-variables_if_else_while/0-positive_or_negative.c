@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /*Header*/
-
-/*main is returning positive, negative or zero*/
+/**
+  * main - does my stuff
+  * Description: Does my stuff explained.
+*/
 int main(void)
 {
 	int n;
