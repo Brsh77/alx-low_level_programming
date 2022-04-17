@@ -3,7 +3,7 @@
 #include <time.h>
 
 /* n will store a diff value every time */
-int main(void) //outputs positive or negative or zero
+int main(void) /* outputs positive or negative or zero*/
 {
 	int n;
 
