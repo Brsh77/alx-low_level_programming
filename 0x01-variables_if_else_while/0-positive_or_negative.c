@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-  main: - short description
- 
-  Description: outputs positive, negative or zero for n
+ * main - Check if a number is greater than 0
+ * @nb: The number to be checked
+ *
+ * Return: 1 if the number is positive. 0 otherwise
 */
 int main(void)
 {
