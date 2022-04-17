@@ -3,7 +3,7 @@
 #include <time.h>
 /* more headers goes there */
 
-/*The variable n will store a different value every time you will run this program */
+/*n will store a diff value every time */
 int main(void)
 {
 	int n;
