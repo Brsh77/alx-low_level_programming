@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-  * main: - short description
+  main: - short description
  
-  * Description: outputs positive, negeative or zero for n
-  (*)?*/
+  Description: outputs positive, negative or zero for n
+*/
 int main(void)
 {
 	int n;
