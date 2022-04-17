@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Check if a number is greater than 0 
- *
- * Return: 1 if the number is positive. 0 otherwise
+* main - Check if a number is greater than 0 
+*
+* Return: 1 if the number is positive. 0 otherwise
 */
 int main(void)
 {
