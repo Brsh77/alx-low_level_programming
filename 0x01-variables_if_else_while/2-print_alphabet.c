@@ -4,12 +4,10 @@
  * returns 1 when printing a to z 
  */
 int main(void)
-char (alpha=a)
 {
-for(char alpha = 'a'; alpha <=z ; alpha++)
-{
+	char alpha;
+	for(alpha = 'a'; alpha <='z' ; alpha++)
 	putchar(alpha);
-}
 putchar('\n');
 return (0);
 }
