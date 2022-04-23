@@ -8,42 +8,37 @@
  */
 int main(void)
 {
-int c;
-int d;
-int e;
-int f = 0;
+	int a, b, c, d;
 
-while (f < 10)
+for (a = 48; a <= 57; a++)
 {
-	e = 0;
-	while (e < 10)
+	for (b = 48; b <= 57; b++)
 	{
-		d = 0;
-		while (d < 10)
+		for (c = 48; c <= 57; c++)
 		{
-			c = 0;
-			while (c < 10)
+			for (d = 48; d <= 57; d++)
 			{
-				if (!(f == c && e == d))
+				if (((c + d) > (a + b) && c >= a) || a < c)
 				{
-					putchar('0' + f);
-					putchar('0' + e);
+					putchar(a);
+					putchar(b);
 					putchar(' ');
-					putchar('0' + d);
-					putchar('0' + c);
-					if (!(f + e == 18 && c + d == 17 && d == 9))
+					putchar(c);
+					putchar(d);
+
+					if (a + b + c + d == 227 && c == 57)
+					{
+						break;
+					}
+					else
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				c++;
 			}
-			d++;
 		}
-		e++;
 	}
-	f++;
 }
 putchar('\n');
 return (0);
