@@ -1,12 +1,20 @@
 #include "main.h"
-/**
- * main - checks the code for if alphabet is lowercase or not.
- * * _islower - check for lower case letter
- * @c : character to check the case
- * Return:0 or 1
- */
-int _islower(int c)
-{
-	return (c >= 97 && c <= 122);
 
+/**
+ * main - check the code.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    int r;
+
+    r = _islower('H');
+    _putchar(r + '0');
+    r = _islower('o');
+    _putchar(r + '0');
+    r = _islower(108);
+    _putchar(r + '0');
+    _putchar('\n');
+    return (0);
 }
