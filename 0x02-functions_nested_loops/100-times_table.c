@@ -2,7 +2,7 @@
 
 /**
  * print_times_table - prints times table
- * If n is greater than 15 or less than 0 
+ * If n is greater than 15 or less than 0
  * the function should not print anything
  * @n : times table to use
  * Return:void
