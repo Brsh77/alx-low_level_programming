@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * a function that returns the value of x raised to the power of y
+ * discription - that returns the value of x raised to the power of y
  * If y is lower than 0, the function should return -1
  * _pow_recursion - Search a string for any of a set of bytes.
  * @x: base
