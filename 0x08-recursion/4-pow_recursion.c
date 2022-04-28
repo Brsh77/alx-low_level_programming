@@ -3,7 +3,7 @@
 /**
  * discription - that returns the value of x raised to the power of y
  * If y is lower than 0, the function should return -1
- * _pow_recursion - Search a string for any of a set of bytes.
+ * discription - _pow_recursion - Search a string for any of a set of bytes.
  * @x: base
  * @y: exposant
  * Return: Pointer to the byte in `s` that matches one of the bytes in `accept`
