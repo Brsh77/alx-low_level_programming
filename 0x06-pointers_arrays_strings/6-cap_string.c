@@ -3,7 +3,8 @@
 /**
  * cap_string - capitalize all words of a string.
  * @s: the string to be manipulated.
- *
+ * Separators of words: space, tabulation,
+ * new line, ,, ;, ., !, ?, ", (, ), {, and }
  * Return: s.
  */
 char *cap_string(char *s)
