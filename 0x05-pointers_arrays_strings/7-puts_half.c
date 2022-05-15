@@ -4,8 +4,8 @@
  * puts_half - print second half of a string
  * @str: char array string type
  * Description: If odd number of chars, print (length - 1) / 2
- * If the number of characters is odd, 
- * the function should print the last n characters of the string, 
+ * If the number of characters is odd,
+ * the function should print the last n characters of the string,
  * where n = (length_of_the_string - 1) / 2
  */
 
