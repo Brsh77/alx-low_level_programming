@@ -2,25 +2,21 @@
 
 /**
  * _strcmp - compares two strings
- * @s1: string 1
- * @s2: string 2
- * Return: 0 if matching, and ns1 - ns2 if not matching
+ * @s1: the first string
+ * @s2: the second string
+ *
+ * Return: 0 if equal, -ve integer if s1 < s2, otherwise +ve integer
  */
-
 int _strcmp(char *s1, char *s2)
 {
-int i;
-
-/**
- * We have reached the end of S1 OR we have reached the end of S2
- */
-
-for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
-{
-	if (s1[i] != s2[i])
+	while (*s1)
 	{
-		return (s1[i] - s2[i]);
+		if (*s1 != *s2)
+			break;
+
+		s1++;
+		s2++;
 	}
-}
-return (0);
+
+	return (*(unsigned char *)s1 - *(unsigned char *)s2);
 }
